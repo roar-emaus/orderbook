@@ -32,7 +32,7 @@ def get_orderbook(identifier, market):
         orderbook['seller'].append(seller)
 
     orderbook_frame = pd.DataFrame(orderbook, columns=columns)
-    orderbook_frame.to_csv(f'../data/{ticker}_{today_date.strftime("%m_%d")}.pd',
+    orderbook_frame.to_csv(f'../data/{ticker}_{market}_{today_date.strftime("%m_%d")}.pd',
                            sep=',', encoding='utf-8', index=False)
 
 
@@ -58,8 +58,8 @@ if __name__=='__main__':
                                 f'aktier.html?marknad={m}&lista=1_1&large=on&mid=on&'
                                  'small=on&sektor=0&subtyp=price&sortera=aktie&'
                                  'sorteringsordning=stigande'))
+    
     for market in markets:
         for stock in market.values():
-            time.sleep(3)
+            time.sleep(2)
             get_orderbook(*stock)
-
