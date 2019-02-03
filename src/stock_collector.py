@@ -13,7 +13,7 @@ def get_orderbook(identifier, market):
     r = requests.get(url)
     columns = ['time', 'volume', 'price', 'buyer', 'seller']
     orderbook = {col: [] for col in columns}
-    ticker = r.text.split('</h1>')[0].split()[-1]
+    ticker = r.text.split('</h1>')[0].split('</span>')[-1].strip().replace(' ','_')
     print(f'Retrieving orderbook for {ticker}')
     tr_elements = [line for line in r.text.split("</tr>")][1:-1]
     for element in tr_elements:
@@ -21,7 +21,7 @@ def get_orderbook(identifier, market):
         buyer = td_elements[1].split("title=")[1].split(">")[0].replace('"','').strip()
         seller = td_elements[2].split("title=")[1].split(">")[0].replace('"','').strip()
         volume = int(td_elements[3].replace(">","").replace("</td","").replace(" ",""))
-        price = float(td_elements[4].split('</span>')[0].split('>')[-1].replace(",","."))
+        price = float(td_elements[4].split('</span>')[0].split('>')[-1].replace(",",".").replace(' ', ''))
         time = dt.datetime.strptime(td_elements[5].split('"last">')[1].split('<img')[0].strip(),
                 '%H:%M:%S').time()
         timestamp = dt.datetime.combine(today_date, time)#.timestamp()
@@ -62,3 +62,4 @@ if __name__=='__main__':
         for stock in market.values():
             time.sleep(3)
             get_orderbook(*stock)
+
