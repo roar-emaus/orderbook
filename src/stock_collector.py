@@ -5,12 +5,6 @@ import pandas as pd
 import datetime as dt
 
 
-#stocks = {'NEL': base_url.format(57456, 15),
-#          'SSO': base_url.format(1301292, 15),
-#          'VELO': base_url.format(36992, 14),
-#          'EOLU_B': base_url.format(66174, 11)}
-
-
 def get_orderbook(identifier, market):
     url = ('https://www.nordnet.no/mux/popups/marknaden/'
                 'aktiehemsidan/avslut.html?containerid=avslut&'
@@ -38,7 +32,7 @@ def get_orderbook(identifier, market):
         orderbook['seller'].append(seller)
 
     orderbook_frame = pd.DataFrame(orderbook, columns=columns)
-    orderbook_frame.to_csv(f'{ticker}_{today_date.strftime("%m_%d")}.pd',
+    orderbook_frame.to_csv(f'../data/{ticker}_{today_date.strftime("%m_%d")}.pd',
                            sep=',', encoding='utf-8', index=False)
 
 
