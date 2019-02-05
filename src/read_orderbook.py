@@ -1,5 +1,6 @@
 import bokeh.plotting as bp
 import bokeh.layouts as bl
+import bokeh.models as bm
 import numpy as np
 import pandas as pd
 import datetime as dt
@@ -31,10 +32,24 @@ cf = pd.DataFrame(data=candles, columns=columns)
 inc = cf.close > cf.open
 dec = cf.open > cf.close
 
-TOOLS = "pan,wheel_zoom,box_zoom,reset,save"
+#use ColumnDataSource to pass in data for tooltips
+source_inc=bm.ColumnDataSource(bm.ColumnDataSource.from_df(cf.loc[inc]))
+source_dec=bm.ColumnDataSource(bm.ColumnDataSource.from_df(cf.loc[dec]))
+
+hover = bm.HoverTool(
+    tooltips=[
+        ('date', '@time'),
+        ('open', '@open'),
+        ('close', '@close'),
+        ('high', '@high'),
+        ('low', '@low'),
+        ('volume', '@volume')
+    ]
+)
+
+TOOLS = ["pan,wheel_zoom,box_zoom,reset,save", bm.CrosshairTool(), hover]
 
 candles = bp.figure(
-    x_axis_type="datetime",
     tools=TOOLS,
     plot_height=750,
     plot_width=2000,
@@ -42,7 +57,6 @@ candles = bp.figure(
 )
 volume = bp.figure(
     x_range=candles.x_range,
-    x_axis_type="datetime",
     tools=TOOLS,
     plot_height=250,
     plot_width=2000,
@@ -51,22 +65,27 @@ volume = bp.figure(
 candles.grid.grid_line_alpha = 0.3
 candles.segment(cf.time, cf.high, cf.time, cf.low, color="black")
 candles.vbar(
-    cf.time[inc],
-    freq // 2,
-    cf.open[inc],
-    cf.close[inc],
+    x='time', # cf.time[inc],
+    width=freq // 2,
+    top='open', # cf.open[inc],
+    bottom='close', # cf.close[inc],
     fill_color="#D5E1DD",
     line_color="black",
+    source=source_inc
 )
 candles.vbar(
-    cf.time[dec],
-    freq // 2,
-    cf.open[dec],
-    cf.close[dec],
+    x='time', # cf.time[dec],
+    width=freq // 2,
+    top='open',  # cf.open[dec],
+    bottom='close',  # cf.close[dec],
     fill_color="#F2583E",
     line_color="black",
+    source=source_dec
 )
 volume.vbar(cf.time, freq//2, cf.volume*0, cf.volume, fill_color="blue")
+date_labels = [date.strftime('%m/%d-%y') for date in pd.to_datetime(cf['time'])]
+candles.xaxis.major_label_overrides = {i: d for i, d in enumerate(date_labels)}
+volume.xaxis.major_label_overrides = {i: d for i, d in enumerate(date_labels)}
 layout = bl.layout(candles, volume)
 
 bp.output_file("NEL.html", title="NEL 30 minutes")
