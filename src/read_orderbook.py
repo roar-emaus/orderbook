@@ -6,13 +6,13 @@ import pandas as pd
 import datetime as dt
 
 
-columns = ["time", "open", "close", "high", "low", "volume"]
+columns = ['time', 'open', 'close', 'high', 'low', 'volume']
 candles = {col: [] for col in columns}
 
 for filename in ['../data/NEL_15_02_01.pd', '../data/NEL_15_02_04.pd', '../data/NEL_15_02_05.pd']:
     o = pd.read_csv(filename)
     o = o.set_index(pd.DatetimeIndex(o['time']))
-    freq = pd.Timedelta(minutes=30)
+    freq = pd.Timedelta(hours=1)
     g = o.groupby(pd.Grouper(freq=freq))
     for name, group in g:
         if group.values.size != 0:
@@ -25,6 +25,13 @@ for filename in ['../data/NEL_15_02_01.pd', '../data/NEL_15_02_04.pd', '../data/
             candles["high"].append(high_v)
             candles["low"].append(low_v)
             candles["volume"].append(vol_v)
+        else:
+            candles["time"].append(None)
+            candles["open"].append(None)
+            candles["close"].append(None)
+            candles["high"].append(None)
+            candles["low"].append(None)
+            candles["volume"].append(None)
 
 
 cf = pd.DataFrame(data=candles, columns=columns)
@@ -62,10 +69,9 @@ volume = bp.figure(
     plot_width=2000,
     title="NEL volume",
 )
-candles.grid.grid_line_alpha = 0.3
-candles.segment(cf.time, cf.high, cf.time, cf.low, color="black")
+candles.segment(cf.index, cf.high, cf.index, cf.low, color="black")
 candles.vbar(
-    x='time', # cf.time[inc],
+    x='index', # cf.time[inc],
     width=freq // 2,
     top='open', # cf.open[inc],
     bottom='close', # cf.close[inc],
@@ -74,7 +80,7 @@ candles.vbar(
     source=source_inc
 )
 candles.vbar(
-    x='time', # cf.time[dec],
+    x='index', # cf.time[dec],
     width=freq // 2,
     top='open',  # cf.open[dec],
     bottom='close',  # cf.close[dec],
@@ -82,12 +88,13 @@ candles.vbar(
     line_color="black",
     source=source_dec
 )
-volume.vbar(cf.time, freq//2, cf.volume*0, cf.volume, fill_color="blue")
-date_labels = [date.strftime('%m/%d-%y') for date in pd.to_datetime(cf['time'])]
+
+volume.vbar(cf.index, freq//2, cf.volume*0, cf.volume, fill_color="blue")
+date_labels = [date.strftime('%m/%d-%y') for date in pd.to_datetime(cf.time)]
 candles.xaxis.major_label_overrides = {i: d for i, d in enumerate(date_labels)}
 volume.xaxis.major_label_overrides = {i: d for i, d in enumerate(date_labels)}
 layout = bl.layout(candles, volume)
 
-bp.output_file("NEL.html", title="NEL 30 minutes")
+bp.output_file("NEL.html", title="NEL 1h")
 
 bp.show(layout)  # open a browser
