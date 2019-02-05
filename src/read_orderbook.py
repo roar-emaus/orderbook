@@ -4,25 +4,26 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
-o = pd.read_csv("NEL_02_01.pd")
-o = o.set_index(pd.DatetimeIndex(o["time"]))
-
 
 columns = ["time", "open", "close", "high", "low", "volume"]
-freq = pd.Timedelta(minutes=30)
-g = o.groupby(pd.Grouper(freq=freq))
 candles = {col: [] for col in columns}
-for name, group in g:
-    if group.values.size != 0:
-        open_v, close_v = group.price[-1], group.price[0]
-        high_v, low_v = group.price.agg([np.max, np.min])
-        vol_v = group.volume.sum()
-        candles["time"].append(name + freq//2)
-        candles["open"].append(open_v)
-        candles["close"].append(close_v)
-        candles["high"].append(high_v)
-        candles["low"].append(low_v)
-        candles["volume"].append(vol_v)
+
+for filename in ['../data/NEL_15_02_01.pd', '../data/NEL_15_02_04.pd', '../data/NEL_15_02_05.pd']:
+    o = pd.read_csv(filename)
+    o = o.set_index(pd.DatetimeIndex(o['time']))
+    freq = pd.Timedelta(minutes=30)
+    g = o.groupby(pd.Grouper(freq=freq))
+    for name, group in g:
+        if group.values.size != 0:
+            open_v, close_v = group.price[-1], group.price[0]
+            high_v, low_v = group.price.agg([np.max, np.min])
+            vol_v = group.volume.sum()
+            candles["time"].append(name + freq//2)
+            candles["open"].append(open_v)
+            candles["close"].append(close_v)
+            candles["high"].append(high_v)
+            candles["low"].append(low_v)
+            candles["volume"].append(vol_v)
 
 
 cf = pd.DataFrame(data=candles, columns=columns)
