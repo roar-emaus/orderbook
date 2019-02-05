@@ -1,0 +1,6 @@
+pandas
+lxml
+bs4
+requests
+bokeh
+numpy
