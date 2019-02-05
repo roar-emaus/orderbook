@@ -1,0 +1,400 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.nordnet.no/mux/popups/marknaden/aktiehemsidan/avslut.html?containerid=avslut&identifier=1301198&marketplace=15&limit=100000
+Subject: Nordnet - Nordnet
+Date: Tue, 5 Feb 2019 16:59:19 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--8j9dZt2qVtWYSX4DnTEl3Ti0fIv4usNEkUics8p0dZ----"
+
+
+------MultipartBoundary--8j9dZt2qVtWYSX4DnTEl3Ti0fIv4usNEkUics8p0dZ----
+Content-Type: text/html
+Content-ID: <frame-09A8E6BE5385EBB2FC8F05E4181B1A2A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.nordnet.no/mux/popups/marknaden/aktiehemsidan/avslut.html?containerid=avslut&identifier=1301198&marketplace=15&limit=100000
+
+<html style=3D"" class=3D" js flexbox no-touch rgba boxshadow opacity local=
+storage sessionstorage"><head><meta http-equiv=3D"Content-Type" content=3D"=
+text/html; charset=3Dwindows-1252">
+=09
+	<meta name=3D"google" content=3D"notranslate">
+  	<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+
+	<!-- app-install banners metadata -->
+	<meta name=3D"apple-itunes-app" content=3D"app-id=3D345038631">
+	<meta name=3D"google-play-app" content=3D"app-id=3Dcom.nordnet">
+	<meta name=3D"msApplication-ID" content=3D"f5e7e9c5-3ff2-491d-bba0-877921c=
+82ff7">
+	<meta name=3D"msApplication-PackageFamilyName" content=3D"NordnetBankAB.No=
+rdnetBank_rjgcxy7drxffr">
+
+
+		<meta name=3D"Author" content=3D"Nordnet Bank">
+<meta name=3D"keywords" content=3D"nordnet norge">
+<meta name=3D"description" content=3D"Kj=F8p og selg verdipapirer i hele ve=
+rden. Sv=E6rt lav kurtasje og ingen faste avgifter. Opprett konto i dag.">
+
+	<title>Nordnet - Nordnet</title>
+
+	<link rel=3D"apple-touch-icon" sizes=3D"57x57" href=3D"https://www.nordnet=
+.no/apple-touch-icon-57x57.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"60x60" href=3D"https://www.nordnet=
+.no/apple-touch-icon-60x60.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"72x72" href=3D"https://www.nordnet=
+.no/apple-touch-icon-72x72.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"76x76" href=3D"https://www.nordnet=
+.no/apple-touch-icon-76x76.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"114x114" href=3D"https://www.nordn=
+et.no/apple-touch-icon-114x114.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"120x120" href=3D"https://www.nordn=
+et.no/apple-touch-icon-120x120.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"144x144" href=3D"https://www.nordn=
+et.no/apple-touch-icon-144x144.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"152x152" href=3D"https://www.nordn=
+et.no/apple-touch-icon-152x152.png">
+	<link rel=3D"apple-touch-icon" sizes=3D"180x180" href=3D"https://www.nordn=
+et.no/apple-touch-icon-180x180.png">
+	<link rel=3D"manifest" href=3D"https://www.nordnet.no/manifest.json">
+	<meta name=3D"msapplication-TileColor" content=3D"#000000">
+	<meta name=3D"msapplication-TileImage" content=3D"/mstile-144x144.png">
+	<meta name=3D"theme-color" content=3D"#000000">
+
+
+	<link rel=3D"stylesheet" type=3D"text/css" media=3D"all" href=3D"https://w=
+ww.nordnet.no/now/css/topnavigation.css?v2" id=3D"topnavigationCSS">
+	<link rel=3D"stylesheet" type=3D"text/css" media=3D"all" href=3D"https://w=
+ww.nordnet.no/now/css/master.css?v1">
+	<link rel=3D"stylesheet" type=3D"text/css" media=3D"all" href=3D"https://w=
+ww.nordnet.no/now/css/meddelandecentralen.css" id=3D"meddelandecentralenCSS=
+">
+	<link rel=3D"stylesheet" type=3D"text/css" media=3D"all" href=3D"https://w=
+ww.nordnet.no/now/css/quickbar.css">
+	<link rel=3D"stylesheet" type=3D"text/css" media=3D"all" href=3D"https://w=
+ww.nordnet.no/now/css/marknaden.css?v2">
+=09
+	<!--[if lt IE 9]><script src =3D "/now/js/common/modernizr/modernizr.shiv.=
+js"></script> <![endif]-->
+	<!--[if lt IE 7]><link rel=3D"stylesheet" type=3D"text/css" media=3D"all" =
+href=3D"/now/css/ie.css" /> <![endif]-->
+	<link rel=3D"stylesheet" type=3D"text/css" media=3D"print" href=3D"https:/=
+/www.nordnet.no/now/css/print.css">
+
+
+	<link type=3D"text/css" rel=3D"stylesheet" href=3D"https://www.nordnet.no/=
+now/css/search/search.min.css">
+
+
+=09
+   =20
+
+=09
+
+=09
+=09
+=09
+=09
+
+=09
+
+=09
+=09
+
+
+
+
+
+=09
+
+=09
+
+
+	<meta name=3D"google-site-verification" content=3D"bL7deeczVGZXzvzC74f_NKx=
+QjTLCasSHd_GigykHV10">
+
+</head>
+
+
+
+
+
+
+
+
+
+<body class=3D"webkit">
+
+<div id=3D"container">
+<h1>
+Aqualis
+<span class=3D"bullet">=B7</span>
+AQUA
+</h1>
+
+<div class=3D"no navigation"></div>
+<div id=3D"content">
+	<div class=3D"module fourcol">
+	<div class=3D"listoptions">
+	<label for=3D"limit">Vis</label>
+	<form id=3D"avslut" name=3D"avslut" action=3D"https://www.nordnet.no/mux/p=
+opups/marknaden/aktiehemsidan/avslut.html">
+	=09
+	=09
+	=09
+		<select name=3D"limit" id=3D"limit">
+			<option value=3D"10">10</option>
+			<option value=3D"100">100</option>
+			<option value=3D"500">500</option>
+			<option value=3D"2000">2000</option>
+			<option selected=3D"selected" value=3D"100000">Alle</option>
+		</select>
+	</form>
+	<span class=3D"buttonGrey">
+		<a href=3D"https://www.nordnet.no/mux/popups/marknaden/aktiehemsidan/avsl=
+ut.html?containerid=3Davslut&amp;identifier=3D1301198&amp;marketplace=3D15&=
+amp;limit=3D100000#">Oppdater</a>
+	</span>
+	</div><!-- /listoptions -->
+	=09
+
+
+<table class=3D"borders">
+	<tbody><tr style=3D"">
+		<th class=3D"text"><a href=3D"https://www.nordnet.no/mux/popups/marknaden=
+/aktiehemsidan/avslut.html?containerid=3Davslut&amp;identifier=3D1301198&am=
+p;marketplace=3D15&amp;limit=3D100000#" style=3D"text-decoration:none;color=
+:#018acf;">Kj=F8pere</a></th>
+		<th class=3D"text"><a href=3D"https://www.nordnet.no/mux/popups/marknaden=
+/aktiehemsidan/avslut.html?containerid=3Davslut&amp;identifier=3D1301198&am=
+p;marketplace=3D15&amp;limit=3D100000#" style=3D"text-decoration:none;color=
+:#018acf;">Selgere</a></th>
+		<th><a href=3D"https://www.nordnet.no/mux/popups/marknaden/aktiehemsidan/=
+avslut.html?containerid=3Davslut&amp;identifier=3D1301198&amp;marketplace=
+=3D15&amp;limit=3D100000#" style=3D"text-decoration:none;color:#018acf;">An=
+tall</a></th>
+		<th><a href=3D"https://www.nordnet.no/mux/popups/marknaden/aktiehemsidan/=
+avslut.html?containerid=3Davslut&amp;identifier=3D1301198&amp;marketplace=
+=3D15&amp;limit=3D100000#" style=3D"text-decoration:none;color:#018acf;">Be=
+talt</a></th>
+		<th>Tid</th>
+	</tr>
+
+
+			<tr style=3D""><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>250</td>
+			<td><span class=3D"kursMinus">4,10</span></td>
+			<td class=3D"last">16:09:29  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+			<tr style=3D""><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>2 380</td>
+			<td><span class=3D"kursPlus">4,20</span></td>
+			<td class=3D"last">13:03:30  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+			<tr><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>242</td>
+			<td><span class=3D"kursMinus">4,10</span></td>
+			<td class=3D"last">11:42:34  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+			<tr style=3D""><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>1 618</td>
+			<td><span class=3D"kursPlus">4,20</span></td>
+			<td class=3D"last">11:11:29  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+			<tr style=3D""><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>729</td>
+			<td><span class=3D"kursPlus">4,19</span></td>
+			<td class=3D"last">11:11:29  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+	</tbody><tbody id=3D"moreFinished_15" style=3D"">
+		<tr style=3D"">
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>100</td>
+			<td><span class=3D"kursNeutral">4,10</span></td>
+			<td class=3D"last">10:49:58  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+			<tr style=3D""><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>2 000</td>
+			<td><span class=3D"kursMinus">4,10</span></td>
+			<td class=3D"last">10:49:58  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+			<tr style=3D""><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>1 071</td>
+			<td><span class=3D"kursNeutral">4,21</span></td>
+			<td class=3D"last">10:42:10  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+			<tr style=3D""><td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3DNorge&amp;maklare=3D=
+-" class=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div=
+>			</td>
+
+			<td class=3D"text">
+			<div class=3D""><a href=3D"https://www.nordnet.no/mux/web/marknaden/mark=
+nadsinformation/maklarstatistik/maklare.html?marknad=3D&amp;maklare=3D-" cl=
+ass=3D"underline" title=3D"Anonymous Broker">Anonymous Broker</a></div>			<=
+/td>
+
+			<td>29</td>
+			<td><span class=3D"kursPlus">4,21</span></td>
+			<td class=3D"last">10:42:10  <img class=3D"delayicon" title=3D"Stengning=
+skurs" alt=3D"Stengningskurs" src=3D"https://www.nordnet.no/now/images/ikon=
+_stangningskurs.gif"></td>
+		</tr>
+
+		</tbody>
+
+</table>
+
+
+
+
+	</div><!-- /module fourcol -->
+
+	<div class=3D"enclosing"></div>
+
+</div><!-- /content -->
+
+<div id=3D"foot">
+	<div id=3D"footShadow"></div>
+</div>
+
+
+
+
+
+
+
+
+</div><!-- SLUT CONTAINER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body><style>
