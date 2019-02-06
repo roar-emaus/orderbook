@@ -1,15 +1,17 @@
-import bokeh.plotting as bp
 import bokeh.layouts as bl
 import bokeh.models as bm
+import bokeh.plotting as bp
+import datetime as dt
 import numpy as np
 import pandas as pd
-import datetime as dt
+from pathlib import Path
 
+data_path = Path.cwd() / '../data'
 
 columns = ['time', 'open', 'close', 'high', 'low', 'volume']
 candles = {col: [] for col in columns}
 
-for filename in ['../data/NEL_15_02_01.pd', '../data/NEL_15_02_04.pd', '../data/NEL_15_02_05.pd']:
+for filename in sorted(list(data_path.glob('SSO_15*'))):
     o = pd.read_csv(filename)
     o = o.set_index(pd.DatetimeIndex(o['time']))
     freq = pd.Timedelta(hours=1)
