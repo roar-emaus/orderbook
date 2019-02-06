@@ -19,7 +19,7 @@ for filename in ['../data/NEL_15_02_01.pd', '../data/NEL_15_02_04.pd', '../data/
             open_v, close_v = group.price[-1], group.price[0]
             high_v, low_v = group.price.agg([np.max, np.min])
             vol_v = group.volume.sum()
-            candles["time"].append(name + freq//2)
+            candles["time"].append((name).strftime('%H:%M %d/%m-%y'))
             candles["open"].append(open_v)
             candles["close"].append(close_v)
             candles["high"].append(high_v)
@@ -34,8 +34,9 @@ for filename in ['../data/NEL_15_02_01.pd', '../data/NEL_15_02_04.pd', '../data/
             candles["volume"].append(None)
 
 
-cf = pd.DataFrame(data=candles, columns=columns)
-
+num_points = len(candles['time'])
+cf = pd.DataFrame(data=candles, columns=columns, index=list(range(num_points)))
+freq = 0.5
 inc = cf.close > cf.open
 dec = cf.open > cf.close
 
@@ -72,7 +73,7 @@ volume = bp.figure(
 candles.segment(cf.index, cf.high, cf.index, cf.low, color="black")
 candles.vbar(
     x='index', # cf.time[inc],
-    width=freq // 2,
+    width=freq,
     top='open', # cf.open[inc],
     bottom='close', # cf.close[inc],
     fill_color="#D5E1DD",
@@ -81,16 +82,15 @@ candles.vbar(
 )
 candles.vbar(
     x='index', # cf.time[dec],
-    width=freq // 2,
+    width=freq,
     top='open',  # cf.open[dec],
     bottom='close',  # cf.close[dec],
     fill_color="#F2583E",
     line_color="black",
     source=source_dec
 )
-
-volume.vbar(cf.index, freq//2, cf.volume*0, cf.volume, fill_color="blue")
-date_labels = [date.strftime('%m/%d-%y') for date in pd.to_datetime(cf.time)]
+volume.vbar(x=cf.index, width=freq, bottom=cf.volume*0, top=cf.volume, fill_color="blue")
+date_labels = [date.strftime('%d/%m-%y') for date in pd.to_datetime(cf.time)]
 candles.xaxis.major_label_overrides = {i: d for i, d in enumerate(date_labels)}
 volume.xaxis.major_label_overrides = {i: d for i, d in enumerate(date_labels)}
 layout = bl.layout(candles, volume)
