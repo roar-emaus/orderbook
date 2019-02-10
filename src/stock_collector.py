@@ -13,17 +13,13 @@ def get_orderbook(identifier, market):
     )
     today_date = dt.date.today()
     r = requests.get(url)
-    columns = ["time", "volume", "price", "buyer", "seller"]
+    columns = ["time", "volume", "price"]
     orderbook = {col: [] for col in columns}
     ticker = r.text.split("</h1>")[0].split("</span>")[-1].strip().replace(" ", "_")
     print(f"Retrieving orderbook for {ticker}")
     tr_elements = [line for line in r.text.split("</tr>")][1:-1]
     for element in tr_elements:
         td_elements = [td for td in element.split("<td")]
-        buyer = td_elements[1].split("title=")[1].split(">")[0].replace('"', "").strip()
-        seller = (
-            td_elements[2].split("title=")[1].split(">")[0].replace('"', "").strip()
-        )
         volume = int(
             td_elements[3].replace(">", "").replace("</td", "").replace(" ", "")
         )
@@ -41,8 +37,6 @@ def get_orderbook(identifier, market):
         orderbook["time"].append(timestamp)
         orderbook["volume"].append(volume)
         orderbook["price"].append(price)
-        orderbook["buyer"].append(buyer)
-        orderbook["seller"].append(seller)
 
     orderbook_frame = pd.DataFrame(orderbook, columns=columns)
     orderbook_frame.to_csv(
